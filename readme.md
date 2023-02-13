@@ -1,8 +1,8 @@
 <h1>Título do Projeto</h1>
 
 <p align="center">
-<image src=""/></br>
-<label>Logo do projeto</label>
+<image src="https://images.vexels.com/media/users/3/288009/isolated/lists/890052151e584f02f94bc0c4e346e9b0-books-continuous-line-color.png"/></br>
+<label>Booksite</label>
 </p>
 
 <p align="center">
