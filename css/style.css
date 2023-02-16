@@ -34,6 +34,7 @@ ul li {
     max-width: 1920px;
 }
 
+
 button {
     background-color: var(--secundary-color);
     padding: 10px 30px;
@@ -91,6 +92,15 @@ main {
     /* border: 1px solid red; */
 }
 
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
 main .text {
     color: #fff;
     font-family: 'Cardo', serif;
@@ -142,6 +152,45 @@ main .text .links .link-demo {
     color: #fff;
 
     text-underline-offset: 8px;
+}
+
+.infos {
+    display: inline-block; 
+    padding: 30px;
+}
+
+.infos p {
+    position: relative;
+
+    padding: 8px;
+
+
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.infos p::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #FFCA42;
+    position: absolute;
+
+    margin-left: -30px;
+    margin-top: 8px;
+}
+
+.infos span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: ;
 }
 
 
