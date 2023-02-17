@@ -18,10 +18,11 @@ body {
 }
 
 nav {
+    
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     margin: 40px 0;
 }
 
@@ -43,11 +44,14 @@ button {
 }
 
 /* navbar */
+nav {
+    min-width: 100%;
+}
+
 nav .navbar {
     display: flex;
-    justify-content: center;
-    gap: 10rem;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav .navbar .icons,.menu {
@@ -189,8 +193,13 @@ main .text .links .link-demo {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-
     color: #B4C7E7;
 }
 
+#author-book {
+    border: 1px solid #fff;
 
+    background-color: #fff;
+
+    text-align: center;
+}
